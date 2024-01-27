@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverdale Middle School Website Demo</title>
+    
+     <!--ICONSCOUT CDN-->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+     <!-- GOOGLE FONTS (MONTSERRAT)-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="style.css">
+
+     <style>
+        .course{
+         margin-top:0%;
+            }          
+        .courses_container{
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 2rem;
+}
+        .course_info{
+        padding:2rem;
+        }
+        
+        .course_title h4{
+         margin: 1.5rem 0 1.5rem;
+    
+        }
+     </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <div class="logo">
+            <img src="images/logo.png">
+        </div>
+            <ul  class="nav_menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Academics</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+     <!--===========================   END OF NAVBAR   =============================-->
+     <div class="tuition_fee">
+        <table class="content-table">
+        <caption>TABLE OF FEES</caption>
+            <thead>
+                <tr>
+                    <th>       </th>
+                    <th>Grade 7</th>
+                    <th>Grade 8</th>
+                    <th>Grade 9</th>
+                    <th>Grade 10</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tuition Fee</td>
+                    <td>18,635</td>
+                    <td>18,635</td>
+                    <td>18,635</td>
+                    <td>18,635</td>
+                </tr>
+
+            <tr class="stripe">
+                <td>Miscellaneous Fees:</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                    <td>Athletic</td>
+                    <td>477</td>
+                    <td>477</td>
+                    <td>477</td>
+                    <td>477</td>
+                </tr>
+
+                <tr class>
+                    <td>Guidance & Counseling </td>
+                    <td>702</td>
+                    <td>702</td>
+                    <td>702</td>
+                    <td>702</td>
+                </tr>
+
+                <tr>
+                    <td>Library</td>
+                    <td>1,241</td>
+                    <td>1,182</td>
+                    <td>1,182</td>
+                    <td>1,182</td>
+                </tr>
+
+                <tr class>
+                    <td>Medical and Dental</td>
+                    <td>925</td>
+                    <td>925</td>
+                    <td>925</td>
+                    <td>925</td>
+                </tr>
+
+                <tr>
+                    <td>Registration</td>
+                    <td>465</td>
+                    <td>465</td>
+                    <td>465</td>
+                    <td>465</td>
+                </tr>
+
+                <tr class>
+                    <td></td>
+                    <td>3,810</td>
+                    <td>3,751</td>
+                    <td>3,751</td>
+                    <td>3,751</td>
+                </tr>
+
+               
+            <tr class="stripe">
+                    <td>Other Fees:</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr class>
+                    <td>Central Student Council</td>
+                    <td>34</td>
+                    <td>34</td>
+                    <td>34</td>
+                    <td>34</td>
+                </tr>
+
+                <tr>
+                    <td>Class Picture</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>70</td>
+                </tr>
+
+                <tr class>
+                    <td>Comelec</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>20</td>
+                </tr>
+
+                <tr>
+                    <td>Energy</td>
+                    <td>1,250</td>
+                    <td>1,250</td>
+                    <td>1,250</td>
+                    <td>1,250</td>
+                </tr>
+
+                <tr class>
+                    <td>Identification Card</td>
+                    <td>200</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Local Student Card</td>
+                    <td>75</td>
+                    <td>75</td>
+                    <td>75</td>
+                    <td>75</td>
+                </tr>
+
+                <tr class>
+                    <td>Student Activity</td>
+                    <td>950</td>
+                    <td>950</td>
+                    <td>950</td>
+                    <td>950</td>
+                </tr>
+
+                <tr>
+                    <td>Student Journal</td>
+                    <td>300</td>
+                    <td>300</td>
+                    <td>300</td>
+                    <td>300</td>
+                </tr>
+
+                <tr class>
+                    <td>University-wide Organization</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>2,909</td>
+                    <td>2,709</td>
+                    <td>2,709</td>
+                    <td>2,709</td>
+               
+                </tr>
+
+              
+            <tr class="stripe">
+                    <td>Additional fees, if applicable: </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr class>
+                    <td>Computer</td>
+                    <td>525</td>
+                    <td>525</td>
+                    <td>525</td>
+                    <td>525</td>
+                </tr>
+
+                <tr>
+                    <td>Laboratory</td>
+                    <td>143</td>
+                    <td>143</td>
+                    <td>143</td>
+                    <td>143</td>
+                </tr>
+
+                <tr class>
+                    <td>CAT</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>500</td>
+                </tr>
+
+                <tr>
+                    <td>Diploma</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>200</td>
+                </tr>
+
+                <tr class>
+                    <td>Graduation Picture</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>800</td>
+                </tr>
+
+                <tr>
+                    <td>Year Book</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>1,200</td>
+                </tr>
+
+               
+            <tr class="stripe">
+                    <td>Total Fees</td>
+                    <td>26,022</td>
+                    <td>25,763</td>
+                    <td>25,763</td>
+                    <td>28,463</td>
+                </tr>
+
+               
+            </tbody>
+        </table>
+     </div>
+     <!--===========================   END OF TABLE   =============================-->
+     <section style="background-color:#034694;">
+     <section class="courses">
+        <h2>ACAMEDIC PROGRAMS</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/grade7.jpg">
+                </div>
+                <div class="course_title">
+                    <h4>Seventh Grade</h4>
+                </div>
+                <div class="course_info">
+                    <p>The Grade 7 Program is designed for students to complete all of their work on line,  and is based on the prescribed learning standards of the Department of Education. Riverdale Middle School learning standards outline what a student should know and be able to do by the end of the grade level. There are also additional skills that a well-rounded student should possess.Students are expected to finish all of their courses by early June so that they are equipped for the next year of study and there is time to prepare the final report card before summer break. 
+                    </p>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/grade8.jpg">
+                </div>
+                <div class="course_title">
+                    <h4>Eighth Grade</h4>
+                </div>
+                <div class="course_info">
+                    <p>Students will spend their last year of middle school building on what they learned as sixth- and seventh-grade students, strengthening any areas of weakness, and digging into more complex coursework as they prepare for high school.Eighth grade deepens students' focus on solving problems and becoming independent thinkers. Riverdale Middle school academic standards outline the specific academic skills the students needs for eighth grade.
+                    </p>
+                    </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/grade9.jpg">
+                </div>
+                <div class="course_title">
+                    <h4>Ninth Grade</h4>
+                </div>
+                <div class="course_info">
+                    <p>RMS takes ninth graders through an enjoyable learning experience as we provides ninth-grade students with the flexibility they need in high school.Students build core foundational skills in Science, Math, English, and the Arts while developing a sense of self-awareness. Abilities are monitored so the student can focus on results in academic courses while exploring electives. Grade 9 demands focus to master core concepts and progress personal achievements.
+                    </p>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/grade10.jpg">
+                </div>
+                <div class="course_title">
+                    <h4>Tenth Grade</h4>
+                </div>
+                <div class="course_info">
+                    <p>Students are exposed to an interactive wide range of online course work. RMS offer interactive curriculum to Grade 10th students and the courses is designed to peak students' interests and engage them in the learning process to achieve academic success. Students study core subjects that include English, Mathematics, Science, Social studies, Fine Art, Foreign Language and may choose from an ever-growing variety of electives. The main objective of each course is preparatory for college, career, and work life.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+</section>
+    <!--===========================   END OF ACADEMICS   =============================-->
+     <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>Riverdale Middle School</h4></a>
+                <p>Riverdale Middle School is an imaginary school established in 2022 and has over 5,000 students. It was created by an IT student name Erniella Jean S. Manalansan in her imaginary world. It is also her first website creation which put her under too much stress.</p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Quick Links</h4>
+                <ul  class="quicklinks">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Academics</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul  class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+01 555 0199 1622</p>
+                    <p>RMSadmission@gmail.com</p>
+                </div>
+            <ul class="footer_socials">
+                <li>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-instagram-alt"></i></a>
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                </li>
+            </ul>
+        </div> 
+    </div>
+    <div class="footer_copyright">
+        <small>Copyright &copy; Erniella Manalansan.</small>
+    </div>   
+    </footer>
+     <script src="./demomain.js"></script> <!--javascript to-->
+</body>
+</html>
